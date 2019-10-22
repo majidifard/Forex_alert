@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "someproject",
+    "slug": "someproject",
+    "privacy": "public",
+    "sdkVersion": "33.0.0",
+    "android": {
+       "package": "com.example.forex_alart_ali",
+       "versionCode" : 1
+     },
+    "platforms": [
+      "android"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    }
+  }
+}
